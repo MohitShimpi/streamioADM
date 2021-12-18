@@ -44,7 +44,6 @@ add_selectbox = st.sidebar.radio(
 if add_selectbox == 'Introduction':
     new_title = '**<p style="font-family:Georgia; color:Brown; bold: True;font-size: 33px;"> Movie Recommendation System & Market Analytics</p>**'
     st.markdown(new_title, unsafe_allow_html=True)
-    st.image('cover.jpg')
 
 
 
